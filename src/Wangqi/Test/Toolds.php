@@ -1,5 +1,5 @@
 <?php
-
+namespace Wangqi\Test;
 
 class Toolds
 {
