@@ -1,0 +1,27 @@
+{
+    "name": "wangqi/testcomposer",
+    "description": "我的描述",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangqi",
+            "email": "13280536705@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wangqi\\Test\\": "src/Wangqi/Test"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
